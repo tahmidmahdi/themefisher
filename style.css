@@ -24,6 +24,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;  
+    /* background-color: #0B4C61; */
     background-image: url(./images/background.svg);
     margin-top: 180px;
 }
@@ -96,14 +97,15 @@
     .main{
         left: 10%;
         margin-left: -50px;   /* 50% */
-        height: 5000px !important
+        height: 5000px !important;
+        /* background-image: none; */
     }
     .main-secondary{
     position: absolute;
-    top: 35%;
+    top: 15% !important;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 1600px !important;
+    margin-top: 1800px !important;
     word-wrap: break-word !important;
 
     }
@@ -119,7 +121,7 @@
         position: absolute;
         height: 390px;
         width: 300px;
-        border: 1px solid white !important;
+        border: 1px solid black !important;
         margin-left: 280px;
         
     }
@@ -174,7 +176,7 @@
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 1300px !important;
+    margin-top: 2500px !important;
     word-wrap: break-word !important;
 
     }
